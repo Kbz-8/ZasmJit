@@ -1,0 +1,25 @@
+.{
+    .name = .zasmjit,
+    .fingerprint = 0xc7f512188801cf1a,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{
+        .asmjit = .{
+            .url = "https://github.com/asmjit/asmjit/archive/677a10bac2c24f7e068cf1f9e675bf51c7b534ea.tar.gz",
+            .hash = "N-V-__8AAOHYowDas2Yh9UHr5lYtI4kd6HWN4SlxvH8GWIAl",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "examples",
+        "tests/consumer/build.zig",
+        "tests/consumer/build.zig.zon",
+        "tests/consumer/main.zig",
+        "tools",
+        "README.md",
+        "LICENSE",
+        "LICENSE-AsmJit",
+    },
+}
